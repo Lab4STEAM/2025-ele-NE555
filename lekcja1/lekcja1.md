@@ -3,7 +3,7 @@
 **Czym jest prawo Ohma?**  
 Prawo Ohma opisuje fundamentalną zależność między prądem elektrycznym, napięciem i rezystancją w obwodzie elektrycznym. Mówi ono, że napięcie przyłożone do elementu obwodu jest równe iloczynowi prądu płynącego przez ten element i jego rezystancji. Na szczęście nie trzeba uczyć się żadnej długiej regułki, ponieważ w najprostszej formie wyraża się ono trzema prostymi wzorami, które dla ułatwienia zazwyczaj zapisuje się w formie poniższej piramidki.
 
-![Prawo Ohma - wzór, schemat i przykładowe obliczenia](prawo_ohma.jpg)
+![Prawo Ohma - wzór, schemat i przykładowe obliczenia](media/prawo_ohma.jpg)
 
 Jedne z najważniejszych wzorów dla elektronika
 
@@ -13,20 +13,20 @@ Jak korzystać z tej piramidki? Zasłaniamy wielkość, którą chcemy uzyskać,
 
 Prawo Ohma pozwala zrozumieć, jak zmieniają się parametry obwodu. Przykładowo, przy stałej rezystancji, wzrost napięcia powoduje proporcjonalny wzrost prądu. Można to zobrazować analogią do przepływu wody: zwiększenie ciśnienia wody (napięcia) przy stałym otwarciu zaworu (rezystancji) skutkuje większym przepływem wody (prądu).
 
-![Prawo Ohma przedstawione jako analogia wodna (animacja)](analogia_wodna_1)
+![Prawo Ohma przedstawione jako analogia wodna (animacja)](media/analogia_wodna_1.jpg)
 
 Analogia wodna: przy stałym oporze zwiększenie napięcia prowadzi do wzrostu prądu
 
 Z kolei, przy stałym napięciu, zmniejszenie rezystancji prowadzi do wzrostu prądu. W analogii wodnej odpowiada to sytuacji, gdy przy stałym ciśnieniu wody, szerzej otwieramy zawór, co zwiększa przepływ.
 
-![Prawo Ohma - wpływ rezystancji na prąd płynący w obwodzie](analogia_wodna_2)
+![Prawo Ohma - wpływ rezystancji na prąd płynący w obwodzie](media/analogia_wodna_2.jpg)
 Analogia wodna: przy stałym napięciu zmniejszenie oporu prowadzi do wzrostu prądu
 
 **Prawo Ohma w praktyce**
 
 Załóżmy, że mamy obwód z baterią o napięciu 9 V i rezystorem o oporze 10 kΩ. Chcemy obliczyć prąd płynący w obwodzie.
 
-![Pomiar prądu w układzie demonstrującym prawo Ohma](uklad_testowy.jpg)
+![Pomiar prądu w układzie demonstrującym prawo Ohma](media/uklad_testowy.jpg)
 
 Układ testowy do pomiaru prądu
 
@@ -42,23 +42,23 @@ W praktycznych pomiarach mogą wystąpić niewielkie różnice między obliczeni
 
 Dioda LED (ang. Light Emitting Diode), to element elektroniczny, który przewodzi prąd w jednym kierunku i emituje światło.
 
-![Dioda świecąca (LED) oraz symbol ze schematu ideowego](schemat_diody.jpg)
+![Dioda świecąca (LED) oraz symbol ze schematu ideowego](media/schemat_diody.jpg)
 
 Przykładowa dioda i symbol stosowany na schematach
 
 Dioda LED zawiera specjalny kryształ, który pod wpływem przepływającego prądu emituje światło. Dioda LED ma dwa wyprowadzenia: anodę (plus) i katodę (minus). Prąd musi płynąć od anody do katody, aby dioda świeciła. Podłączenie diody w odwrotnym kierunku (zaporowo) blokuje przepływ prądu i dioda nie świeci.
 
-![Dioda świecąca w środku - przekrój LED](przekroj_diody.jpg)
+![Dioda świecąca w środku - przekrój LED](media/przekroj_diody.jpg)
 
-![Dioda odpowiednio podłączona – świeci](dioda_dobrze_podl.jpg)
+![Dioda odpowiednio podłączona – świeci](media/dioda_dobrze_podl.jpg)
 
 Dioda odpowiednio podłączona – świeci
 
-![Dioda podłączona błędnie (zaporowo) – nie świeci](dioda_zle_podl.jpg)
+![Dioda podłączona błędnie (zaporowo) – nie świeci](media/dioda_zle_podl.jpg)
 
 Dioda podłączona błędnie (zaporowo) – nie świeci
 
-![Dioda świecąca bez rezystora szybko ulegnie uszkodzeniu](dioda_uszkodzona.jpg)
+![Dioda świecąca bez rezystora szybko ulegnie uszkodzeniu](media/dioda_uszkodzona.jpg)
 
 Brak rezystora i zbyt duży prąd uszkadzają diodę
 
@@ -70,7 +70,7 @@ Katodę diody LED można rozpoznać na kilka sposobów:
 - Obudowa diody ma ścięcie przy katodzie.
 - Wewnątrz diody katoda łączy się z większym elementem.
 
-![Dioda świecąca anoda i katoda - rozpoznawanie wyprowadzeń](el_char_diody.jpg)
+![Dioda świecąca anoda i katoda - rozpoznawanie wyprowadzeń](media/el_char_diody.jpg)
 
 Elementy charakterystyczne diody
 
@@ -84,12 +84,12 @@ Diodom trzeba ograniczać prąd. Najprostszym rozwiązaniem jest wstawienie rezy
 
 Wzór pozwalający obliczyć rezystancję rezystora do zasilania diody LED wygląda następująco:
 
-![Obliczanie rezystora dla diody świecącej](rezyst_diody.jpg)
+![Obliczanie rezystora dla diody świecącej](media/rezyst_diody.jpg)
 - U<sub>zas</sub> – napięcie zasilania obwodu z diodą
 - U<sub>diody</sub> – napięcie przewodzenia diody (z tabelki wyżej)
 - I<sub>diody</sub> – prąd, który ma płynąć przez diodę
 
-![Schemat testujący diodę świecącą podłączoną do baterii przez rezystor](schemat_diody.jpg)
+![Schemat testujący diodę świecącą podłączoną do baterii przez rezystor](media/schemat_diody.jpg)
 
 Podstawowy schemat podłączenia diody świecącej do źródła zasilania
 
@@ -105,7 +105,7 @@ R = (9 V − 2 V) / 0,007 A = 7 V / 0,007 A = 1000 Ω = 1 kΩ
 
 Jaki prąd powinien płynąć przez diodę? Na pewno mniejszy od maksymalnego, czyli podanych już 20 mA. Produkowane dzisiaj diody świecą wystarczająco jasno, jeśli płynie przez nie prąd <10 mA. W układach zasilanych z baterii, w których zależy nam na niskim zużyciu energii, można przyjąć 1–5 mA.
 
-![Wpływ rezystora na jasność diody - animacja działania układu](swiecenie_a_rezyst.jpg)
+![Wpływ rezystora na jasność diody - animacja działania układu](media/swiecenie_a_rezyst.jpg)
 
 Świecenie diody w zależności od dobranego rezystora
 
@@ -113,11 +113,11 @@ Jaki prąd powinien płynąć przez diodę? Na pewno mniejszy od maksymalnego, c
 
 Kolejność podłączenia rezystora i diody w obwodzie szeregowym nie ma wpływu na działanie obwodu.. Przez elementy połączone szeregowo płynie ten sam prąd – wynika to z praw Kirchhoffa.
 
-![Rezystor umieszczony „przed diodą”](rezyst_przed.jpg)
+![Rezystor umieszczony „przed diodą”](media/rezyst_przed.jpg)
 
 Rezystor umieszczony „przed diodą”
 
-![Rezystor umieszczony „za diodą”](rezyst_za.jpg)
+![Rezystor umieszczony „za diodą”](media/rezyst_za.jpg)
 
 Rezystor umieszczony „za diodą”
 
@@ -125,7 +125,7 @@ Rezystor umieszczony „za diodą”
 
 Kondensator to element elektroniczny, który magazynuje energię elektryczną. Kondensatory dzielą się na biegunowe i bezbiegunowe. Kondensatory biegunowe (np. elektrolityczne) mają oznaczoną biegunowość i muszą być podłączone do obwodu zgodnie z polaryzacją. Kondensatory bezbiegunowe (np. ceramiczne, foliowe) można podłączać w obwodzie w dowolnym kierunku.
 
-![Kondensatory elektrolityczne, ceramiczne i tantalowe](typy_kondensatorow.jpg)
+![Kondensatory elektrolityczne, ceramiczne i tantalowe](media/typy_kondensatorow.jpg)
 
 Różne typy kondensatorów. Najczęściej używane są kondensatory elektrolityczne (dwa pierwsze z lewej) i ceramiczne (trzeci od lewej)
 
@@ -139,7 +139,7 @@ Do kondensatorów biegunowych zaliczają się m.in. bardzo popularne kondensator
 
 Z kolei na schematach znakiem plusa oznacza się wyprowadzenie, które powinno być podłączone do dodatniej szyny zasilania („plusa” z baterii).
 
-![Kondensator elektrolityczny 470 uF wraz z przykładowym symbolem ze schematu ideowego](kondensator_elektrolityczny.jpg)
+![Kondensator elektrolityczny 470 uF wraz z przykładowym symbolem ze schematu ideowego](media/kondensator_elektrolityczny.jpg)
 
 Przykładowy kondensator elektrolityczny wraz z opisanym symbolem
 
@@ -168,7 +168,7 @@ Ten parametr wyrażany jest w woltach \[V\] i określa, jakie napięcie może pa
 
 Maksymalne napięcie pracy wpływa znacząco na rozmiar kondensatorów. Przykładowo, największy (fizycznie) kondensator na poniższym zdjęciu charakteryzuje się najmniejszą pojemnością, ale za to jest w stanie wytrzymać bardzo duże napięcie (330 V).
 
-![Kondensatory elektrolityczne różniące się pojemnością, napięciem oraz rozmiarem](elektrolityczne_rozne.jpg)
+![Kondensatory elektrolityczne różniące się pojemnością, napięciem oraz rozmiarem](media/elektrolityczne_rozne.jpg)
 
 Jak widać, rozmiar kondensatora nie zależy tylko od jego pojemności
 
@@ -182,7 +182,7 @@ Rezystancję rezystora można zmierzyć za pomocą miernika uniwersalnego (multi
 
 Poniżej pomiar rezystora 10 k, więc opór mierzymy na zakresie 20 k. Przy pomiarze oporu nie ma czegoś takiego jak biegunowość, nie ma zatem różnicy, do których wyprowadzeń przyłożymy sondy:
 
-![Pomiar oporu](pomiar_oporu.jpg)
+![Pomiar oporu](media/pomiar_oporu.jpg)
 
 Pomiar oporu
 
@@ -194,7 +194,7 @@ Połączmy teraz szeregowo dwa rezystory (330 Ω oraz 1 kΩ). Poniżej widoczny 
 
 Poniżej specjalnie pokazane są inne połączenia rezystorów (korzystające z różnych otworów):
 
-![Połączenie szeregowe w praktyce](polaczenie_szeregowe.jpg)
+![Połączenie szeregowe w praktyce](media/polaczenie_szeregowe.jpg)
 
 Połączenie szeregowe w praktyce
 
@@ -202,7 +202,7 @@ Połączenie szeregowe w praktyce
 
 Teraz pora na połączenie równoległe tych samych rezystorów, co jest właściwie jeszcze łatwiejsze. Przykład połączenia widoczny jest poniżej.
 
-![Połączenie równoległe w praktyce](polaczenie_rownolegle.jpg)
+![Połączenie równoległe w praktyce](media/polaczenie_rownolegle.jpg)
 
 Połączenie równoległe w praktyce
 
@@ -210,7 +210,7 @@ Połączenie równoległe w praktyce
 
 Układ scalony NE555 to popularny element, który został wprowadzony na rynek w 1970 roku. Jest on używany do generowania sygnałów czasowych i znajduje zastosowanie w wielu różnych urządzeniach.
 
-![Jedna z wersji układu NE555 w obudowie przewlekanej](ne555.jpg)
+![Jedna z wersji układu NE555 w obudowie przewlekanej](media/ne555.jpg)
 
 Jedna z wersji układu NE555 w obudowie przewlekanej
 
@@ -220,7 +220,7 @@ NE555 jest dostępny w obudowie z 8 wyprowadzeniami. Istnieje również wersja N
 
 Przy pracy z układami scalonymi, ważne jest korzystanie z dokumentacji technicznej, zwanej notą katalogową, która zawiera szczegółowe informacje o układzie. W podstawowym zakresie, do zrozumienia działania układu wystarcza znajomość opisu wyprowadzeń, czyli pinout.
 
-![Opis wyprowadzeń układu NE555](ne555_wyprowadzenia.jpg)
+![Opis wyprowadzeń układu NE555](media/ne555_wyprowadzenia.jpg)
 
 Opis wyprowadzeń układu NE555
 
@@ -228,19 +228,19 @@ Opis wyprowadzeń układu NE555
 
 Układy scalone są zbudowane z tranzystorów, rezystorów i innych elementów. Wewnętrzną strukturę NE555 można przedstawić w postaci bloków funkcjonalnych, co ułatwia zrozumienie jego działania. Schemat blokowy NE555 pokazuje, jak połączone są ze sobą poszczególne bloki. Na schemacie tym nie zaznacza się zazwyczaj połączeń zasilania i masy, aby był bardziej czytelny.
 
-![Schemat blokowy układu NE555](ne555_schemat.jpg)
+![Schemat blokowy układu NE555](media/ne555_schemat.jpg)
 
 Schemat blokowy układu NE555
 
 **Blok 1: Dzielnik napięcia**
 
-![NE555, blok 1: dzielnik napięcia](ne555_blok1.jpg)
+![NE555, blok 1: dzielnik napięcia](media/ne555_blok1.jpg)
 
 NE555, blok 1: dzielnik napięcia
 
 **Blok 2: Komparatory napięcia**
 
-![NE555, blok 2: komparatory napięcia](ne555_blok2.jpg)
+![NE555, blok 2: komparatory napięcia](media/ne555_blok2.jpg)
 
 NE555, blok 2: komparatory napięcia
 
@@ -248,7 +248,7 @@ NE555, blok 2: komparatory napięcia
 
 Prostokąt z pięcioma wyprowadzeniami to tzw. przerzutnik RS. Jest to podzespół cyfrowy, który zapamiętuje stany logiczne z wyjść komparatorów. Przerzutnik ma wejścia S (set), R (reset) i RES (reset z negacją) oraz wyjścia Q i Q z negacją.
 
-![NE555, blok 3: przerzutnik RS](ne555_blok3.jpg)
+![NE555, blok 3: przerzutnik RS](media/ne555_blok3.jpg)
 
 NE555, blok 3: przerzutnik RS
 
@@ -266,7 +266,7 @@ Między wyjściem Q przerzutnika a wyprowadzeniem OUT układu znajduje się tzw.
 
 Wyjście przerzutnika nie podołałoby temu zadaniu, ponieważ struktura logiczna nie jest przystosowana do przewodzenia dużych prądów. Bufor „sam z siebie” nie wpływa na stan logiczny na wyjściu – podąża on tylko za tym, co otrzyma na swoim wejściu, czyli za wyjściem przerzutnika.
 
-![NE555, blok 4: bufor wyjściowy](ne555_blok4.jpg)
+![NE555, blok 4: bufor wyjściowy](media/ne555_blok4.jpg)
 
 NE555, blok 4: bufor wyjściowy
 
@@ -274,7 +274,7 @@ NE555, blok 4: bufor wyjściowy
 
 W układzie znajduje się tranzystor, który służy do rozładowywania zewnętrznego kondensatora, podłączanego do NE555. Tranzystor ten jest sterowany z zanegowanego wyjścia przerzutnika, czyli otwiera się wtedy, kiedy wyjście Q jest w stanie niskim, bo wówczas na zanegowanym Q mamy stan wysoki. Jest to oczywiście tranzystor o odpowiednio dużej wydajności prądowej, aby nie uległ uszkodzeniu po otwarciu – jego rolą jest szybkie rozładowanie kondensatora.
 
-![NE555, blok 5: tranzystor](ne555_blok5.jpg)
+![NE555, blok 5: tranzystor](media/ne555_blok5.jpg)
 
 NE555, blok 5: tranzystor
 
