@@ -20,6 +20,7 @@ Analogia wodna: przy stałym oporze zwiększenie napięcia prowadzi do wzrostu p
 Z kolei, przy stałym napięciu, zmniejszenie rezystancji prowadzi do wzrostu prądu. W analogii wodnej odpowiada to sytuacji, gdy przy stałym ciśnieniu wody, szerzej otwieramy zawór, co zwiększa przepływ.
 
 ![Prawo Ohma - wpływ rezystancji na prąd płynący w obwodzie](media/analogia_wodna_2.jpg)
+
 Analogia wodna: przy stałym napięciu zmniejszenie oporu prowadzi do wzrostu prądu
 
 **Prawo Ohma w praktyce**
@@ -42,13 +43,15 @@ W praktycznych pomiarach mogą wystąpić niewielkie różnice między obliczeni
 
 Dioda LED (ang. Light Emitting Diode), to element elektroniczny, który przewodzi prąd w jednym kierunku i emituje światło.
 
-![Dioda świecąca (LED) oraz symbol ze schematu ideowego](media/schemat_diody.jpg)
+![Dioda świecąca (LED) oraz symbol ze schematu ideowego](media/przyklad_dioda.jpg)
 
 Przykładowa dioda i symbol stosowany na schematach
 
 Dioda LED zawiera specjalny kryształ, który pod wpływem przepływającego prądu emituje światło. Dioda LED ma dwa wyprowadzenia: anodę (plus) i katodę (minus). Prąd musi płynąć od anody do katody, aby dioda świeciła. Podłączenie diody w odwrotnym kierunku (zaporowo) blokuje przepływ prądu i dioda nie świeci.
 
 ![Dioda świecąca w środku - przekrój LED](media/przekroj_diody.jpg)
+
+Przekrój diody – element świecący
 
 ![Dioda odpowiednio podłączona – świeci](media/dioda_dobrze_podl.jpg)
 
@@ -228,7 +231,7 @@ Opis wyprowadzeń układu NE555
 
 Układy scalone są zbudowane z tranzystorów, rezystorów i innych elementów. Wewnętrzną strukturę NE555 można przedstawić w postaci bloków funkcjonalnych, co ułatwia zrozumienie jego działania. Schemat blokowy NE555 pokazuje, jak połączone są ze sobą poszczególne bloki. Na schemacie tym nie zaznacza się zazwyczaj połączeń zasilania i masy, aby był bardziej czytelny.
 
-![Schemat blokowy układu NE555](media/ne555_schemat.jpg)
+![Schemat blokowy układu NE555](media/ne555_schemat_blokowy.jpg)
 
 Schemat blokowy układu NE555
 
