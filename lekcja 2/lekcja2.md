@@ -32,9 +32,9 @@ Czas trwania impulsu zależy od wartości rezystora **R1** i kondensatora **C1**
 
 **Wzór na czas trwania impulsu (czas włączenia diody):**
 
-```
-t = 1.1 × R1 × C1
-```
+$$
+t = 1{,}1  \cdot R1 \cdot C1
+$$
 
 > gdzie:  
 > R1 w omach (Ω),  
@@ -54,30 +54,29 @@ Przebieg charakteryzuje się **częstotliwością** i **współczynnikiem wypeł
 
 **Wzory dla trybu astabilnego:**
 
-Czasy:
 
-```
-t_high = 0.693 × (R2 + R3) × C2
-t_low  = 0.693 × R3 × C2
-```
-
+Czasy: <sup><sup>[\[1\]](#footnote-0)</sup></sup>
+$$
+t_{\text{high}} = \ln(2) \cdot (R2 + R3) \cdot C2 
+$$
+$$
+t_{\text{high}} = 0{,}693 \cdot (R2 + R3) \cdot C2
+$$
+$$
+t_{\text{low}} = 0{,}693 \cdot R3 \cdot C2
+$$
 Całkowity okres:
-
-```
-T = t_high + t_low
-```
-
+$$
+T = t_{\text{high}} + t_{\text{low}}
+$$
 Częstotliwość:
-
-```
-f = 1 / T
-```
-
+$$
+f = \frac{1}{T}
+$$
 Współczynnik wypełnienia:
-
-```
-D = t_high / T × 100%
-```
+$$
+D = \frac{t_{\text{high}}}{T} \cdot 100\%
+$$
 
 
 ## 3. Zadania do wykonania
@@ -120,3 +119,5 @@ D = t_high / T × 100%
 2. Co się stanie, jeśli kondensator w trybie monostabilnym będzie bardzo mały?
 3. Dlaczego nie widzimy migania diody powyżej 50 Hz?
 4. Który z elementów (**R** czy **C**) ma większy wpływ na częstotliwość pracy układu astabilnego?
+
+1. ln() – jest to logarytm naturalny, w fizyce i matematyce często występuje stała oznaczana jako e – liczba Eulera. W tym przypadku wykorzystywana jest do obliczania czasu rozładowywania kondensatora z układu RC. Ln – oznacza logarytm o podstawie e - $$ln⁡()=log_n ()$$ln⁡(2)≈0,693, stąd dalsze uproszczenia. [↑](#footnote-ref-0)

@@ -1,4 +1,4 @@
-**LEKCJA 2**
+# LEKCJA 2
 
 **1\. Wprowadzenie:**
 
